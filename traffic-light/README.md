@@ -4,7 +4,7 @@ A 4-state traffic light controller with a different duration for each light, wri
 
 ## Sequence
 
-RED → RED+YELLOW → GREEN → YELLOW → RED (European-style)
+RED → RED+YELLOW → GREEN → YELLOW → RED 
 
 | State       | Lights on   | Cycles |
 |-------------|-------------|--------|
