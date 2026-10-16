@@ -21,7 +21,7 @@ A `counter` counts clock cycles. Each state has a target value, `duration`. When
 
 ## Waveform
 
-You can find docs/waveform.png in repo
+![waveform](docs/waveform.png)
 
 
 ## Files
