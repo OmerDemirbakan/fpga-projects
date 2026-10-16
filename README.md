@@ -9,6 +9,7 @@ I'm an Electrical and Electronics Engineering student learning digital design an
 | Project | Description | Status |
 |---------|-------------|--------|
 | [Traffic Light](traffic-light) | 4-state traffic light FSM with a different duration for each light | Done |
+| [Turnstile](turnstile) | 2-state turnstile FSM controlled by coin and push inputs | Done |
 
 ## Tools
 
@@ -18,6 +19,5 @@ I'm an Electrical and Electronics Engineering student learning digital design an
 
 ## Planned
 
-- Turnstile FSM
 - Elevator controller
 - Running a design on a real FPGA board
