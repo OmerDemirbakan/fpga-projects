@@ -37,4 +37,11 @@ The testbench pushes while locked (nothing happens), inserts a coin (it unlocks)
 
 ## What I learned
 
-(Write 2-3 sentences in your own words.)
+## What I learned
+
+- This project showed me how important a testbench is. If I ignore the clock
+  timing when I apply the inputs, I cannot demonstrate that the design works
+  correctly.
+- At first, my `coin` input stayed high, so it overlapped with `push` and the
+  turnstile never locked. I fixed it by giving each input a short pulse that
+  lasts exactly one clock edge, applied between two edges.
